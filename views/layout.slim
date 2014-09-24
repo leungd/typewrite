@@ -1,0 +1,33 @@
+doctype html
+html lang="en"
+	head
+		meta charset="utf-8"
+		meta http-equiv="X-UA-Compatible" content="IE=edge"
+		meta name="viewport" content="width=device-width initial-scale=1.0"
+
+		link rel="stylesheet" href="/stylesheets/app.css"
+		link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700italic,700|Open+Sans:400,400italic,700italic,700" type="text/css"
+
+		== js :modernizer
+
+	body
+		header.header
+			.container
+				.row
+					.col-sm-12
+						h4.site-title typewrite
+
+		section.content
+			.container
+				.row
+					.col-sm-12
+						== yield
+
+		footer.footer
+			.container
+				.row
+					.col-sm-12
+						span.copy &copy; typewrite
+
+		== js :libs
+		== js :application

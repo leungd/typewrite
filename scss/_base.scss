@@ -1,2 +1,28 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+$base: 20px;
+
+$font-editor: 'Droid Serif', serif;
+$font-primary: 'Open Sans', sans-serif;
+
+.header {
+	padding: $base 0;
+	border-bottom: 1px solid #EEE;
+	.site-title {
+		color: $header-font-color;
+		font-family: $font-editor;
+	}
+}
+
+.content {
+	padding: $base 0;
+	border-bottom: 1px solid #EEE;
+}
+
+.footer {
+	padding: $base 0;
+	.copy {
+		font-size: 12px;
+	}
+}

@@ -1409,7 +1409,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
-  color: #333333;
+  color: #666;
   background-color: #fff;
 }
 
@@ -3900,7 +3900,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #a6a6a6;
 }
 
 @media (min-width: 768px) {
@@ -6058,7 +6058,7 @@ a.badge:hover, a.badge:focus {
 /* line 27, ../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_thumbnails.scss */
 .thumbnail .caption {
   padding: 9px;
-  color: #333333;
+  color: #666;
 }
 
 /* line 34, ../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_thumbnails.scss */
@@ -8023,4 +8023,29 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+/* line 9, ../../scss/_base.scss */
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid #EEE;
+}
+/* line 12, ../../scss/_base.scss */
+.header .site-title {
+  color: #444;
+  font-family: "Droid Serif", serif;
+}
+
+/* line 18, ../../scss/_base.scss */
+.content {
+  padding: 20px 0;
+  border-bottom: 1px solid #EEE;
+}
+
+/* line 23, ../../scss/_base.scss */
+.footer {
+  padding: 20px 0;
+}
+/* line 25, ../../scss/_base.scss */
+.footer .copy {
+  font-size: 12px;
 }
