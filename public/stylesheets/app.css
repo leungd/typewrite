@@ -8027,25 +8027,30 @@ button.close {
 /* line 9, ../../scss/_base.scss */
 .header {
   padding: 20px 0;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #FAFAFA;
 }
 /* line 12, ../../scss/_base.scss */
 .header .site-title {
   color: #444;
   font-family: "Droid Serif", serif;
+  margin: 0;
 }
 
-/* line 18, ../../scss/_base.scss */
+/* line 19, ../../scss/_base.scss */
 .content {
-  padding: 20px 0;
-  border-bottom: 1px solid #EEE;
+  padding: 40px 0;
+  border-bottom: 1px solid #FAFAFA;
+}
+/* line 22, ../../scss/_base.scss */
+.content .what {
+  margin: 0 0 20px 0;
 }
 
-/* line 23, ../../scss/_base.scss */
+/* line 29, ../../scss/_base.scss */
 .footer {
   padding: 20px 0;
 }
-/* line 25, ../../scss/_base.scss */
+/* line 31, ../../scss/_base.scss */
 .footer .copy {
   font-size: 12px;
 }

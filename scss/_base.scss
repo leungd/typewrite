@@ -8,16 +8,22 @@ $font-primary: 'Open Sans', sans-serif;
 
 .header {
 	padding: $base 0;
-	border-bottom: 1px solid #EEE;
+	border-bottom: 1px solid #FAFAFA;
 	.site-title {
 		color: $header-font-color;
 		font-family: $font-editor;
+		margin: 0;
 	}
 }
 
 .content {
-	padding: $base 0;
-	border-bottom: 1px solid #EEE;
+	padding: $base*2 0;
+	border-bottom: 1px solid #FAFAFA;
+	.what {
+		margin: 0 0 $base 0;
+	}
+	.what, .statement {
+	}
 }
 
 .footer {

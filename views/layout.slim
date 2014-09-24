@@ -14,20 +14,26 @@ html lang="en"
 		header.header
 			.container
 				.row
-					.col-sm-12
-						h4.site-title typewrite
+					.col-sm-8.col-sm-offset-2
+						h3.site-title.pull-left 
+							a href="/" typewrite
+						.login.pull-right
+							- if current_user
+								a.btn.btn-default href="/logout" Logout
+							- else
+								a.btn.btn-default href="/login" Login with Twitter
 
 		section.content
 			.container
 				.row
-					.col-sm-12
+					.col-sm-8.col-sm-offset-2
 						== yield
 
 		footer.footer
 			.container
 				.row
-					.col-sm-12
-						span.copy &copy; typewrite
+					.col-sm-8.col-sm-offset-2
+						/ span.copy &copy; typewrite
 
 		== js :libs
 		== js :application

@@ -1,0 +1,6 @@
+development:
+  adapter: postgresql
+  database: typewrite_dev
+  username: ***REMOVED***
+  password: ***REMOVED***
+  host: localhost
