@@ -8027,7 +8027,7 @@ button.close {
 /* line 9, ../../scss/_base.scss */
 .header {
   padding: 20px 0;
-  border-bottom: 1px solid #FAFAFA;
+  border-bottom: 1px solid #EEE;
 }
 /* line 12, ../../scss/_base.scss */
 .header .site-title {
@@ -8039,7 +8039,7 @@ button.close {
 /* line 19, ../../scss/_base.scss */
 .content {
   padding: 40px 0;
-  border-bottom: 1px solid #FAFAFA;
+  border-bottom: 1px solid #EEE;
 }
 /* line 22, ../../scss/_base.scss */
 .content .what {

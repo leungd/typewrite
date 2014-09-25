@@ -8,7 +8,7 @@ $font-primary: 'Open Sans', sans-serif;
 
 .header {
 	padding: $base 0;
-	border-bottom: 1px solid #FAFAFA;
+	border-bottom: 1px solid #EEE;
 	.site-title {
 		color: $header-font-color;
 		font-family: $font-editor;
@@ -18,7 +18,7 @@ $font-primary: 'Open Sans', sans-serif;
 
 .content {
 	padding: $base*2 0;
-	border-bottom: 1px solid #FAFAFA;
+	border-bottom: 1px solid #EEE;
 	.what {
 		margin: 0 0 $base 0;
 	}

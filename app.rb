@@ -12,7 +12,7 @@ class App < Sinatra::Base
 		enable :sessions
 
 		use OmniAuth::Builder do
-			provider :twitter, ***REMOVED***, ***REMOVED***
+			provider :twitter, ENV['CONSUMER_KEY'], ENV['CONSUMER_SECRET']
 		end
 	end
 		

@@ -1,6 +1,6 @@
 development:
   adapter: postgresql
   database: typewrite_dev
-  username: ***REMOVED***
-  password: ***REMOVED***
+  username: <%= ENV['TW_USERNAME'] %>
+  password: <%= ENV['TW_PASSWORD'] %>
   host: localhost
